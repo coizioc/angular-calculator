@@ -21,7 +21,7 @@ export class CalculatorComponent implements OnInit {
             this.currentNumber = v;
             this.waitForSecondNumber = false;
         } else {
-            this.currentNumber === '0' ? this.currentNumber = v : this.currentNumber += v;
+            this.currentNumber === '0' && !this.currentNumber.includes('.') ? this.currentNumber = v : this.currentNumber += v;
         }
     }
 
