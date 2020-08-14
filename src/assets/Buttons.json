@@ -1,0 +1,146 @@
+[
+    {
+        "value": "percent",
+        "display": "%",
+        "click": "getPercent()",
+        "class": "operation"
+    },
+    {
+        "value": "all-clear",
+        "display": "AC",
+        "click": "clearAll()",
+        "class": "all-clear"
+    },
+    {
+        "value": "clear",
+        "display": "C",
+        "click": "clear()",
+        "class": "all-clear"
+    },
+    {
+        "value": "backspace",
+        "display": "←",
+        "click": "backspace()",
+        "class": "operation"
+    },
+    {
+        "value": "reciprocal",
+        "display": "1/x",
+        "click": "getOperation('1/x')",
+        "class": "operation"
+    },
+    {
+        "value": "square",
+        "display": "x²",
+        "click": "getOperation('^2')",
+        "class": "operation"
+    },
+    {
+        "value": "sqrt",
+        "display": "√x",
+        "click": "getOperation('sqrt')",
+        "class": "operation"
+    },
+    {
+        "value": "/",
+        "display": "÷",
+        "click": "getOperation('/')",
+        "class": "operation"
+    },
+    {
+        "value": "7",
+        "display": "7",
+        "click": "getNumber('7')",
+        "class": "number"
+    },
+    {
+        "value": "8",
+        "display": "8",
+        "click": "getNumber('8')",
+        "class": "number"
+    },
+    {
+        "value": "9",
+        "display": "9",
+        "click": "getNumber('9')",
+        "class": "number"
+    },
+    {
+        "value": "*",
+        "display": "⨉",
+        "click": "getOperation('/')",
+        "class": "operation"
+    },
+    {
+        "value": "4",
+        "display": "4",
+        "click": "getNumber('4')",
+        "class": "number"
+    },
+    {
+        "value": "5",
+        "display": "5",
+        "click": "getNumber('5')",
+        "class": "number"
+    },
+    {
+        "value": "6",
+        "display": "6",
+        "click": "getNumber('6')",
+        "class": "number"
+    },
+    {
+        "value": "-",
+        "display": "-",
+        "click": "getOperation('-')",
+        "class": "operation"
+    },
+    {
+        "value": "1",
+        "display": "1",
+        "click": "getNumber('1')",
+        "class": "number"
+    },
+    {
+        "value": "2",
+        "display": "2",
+        "click": "getNumber('2')",
+        "class": "number"
+    },
+    {
+        "value": "3",
+        "display": "3",
+        "click": "getNumber('3')",
+        "class": "number"
+    },
+    {
+        "value": "+",
+        "display": "+",
+        "click": "getOperation('+')",
+        "class": "operation"
+    },
+    {
+        "value": "negate",
+        "display": "+/-",
+        "click": "getOperation('negate')",
+        "class": "operation"
+    },
+    {
+        "value": "0",
+        "display": "0",
+        "click": "getNumber('0')",
+        "class": "number"
+    },
+    {
+        "value": "decimal",
+        "display": ".",
+        "click": "getDecimal()",
+        "class": "decimal"
+    },
+    {
+        "value": "=",
+        "display": "=",
+        "click": "getOperation('=')",
+        "class": "equal-sign"
+    }
+]
